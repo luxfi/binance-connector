@@ -1,5 +1,5 @@
 {
-  "name": "@lux-wallet/binance-connector",
+  "name": "@luxwallet/binance-connector",
   "version": "2.0.1",
   "description": "This is a lightweight library that works as a connector to the Binance public API.",
   "main": "src/index.js",
@@ -8,13 +8,11 @@
     "jsdoc:win": "jsdoc -c conf.json && npx jsdoc --readme ./docs_src/gettingStarted.md src/modules/blvt.js && node ./docs_src/generateDoc.js && RD /S /Q out",
     "test": "jest --testPathIgnorePatterns=__tests__/websocket/subscription.test.js",
     "test:watch": "jest --watchAll",
-    "standard": "standard",
-    "standard:fix": "standard --fix ",
-    "prepare": "husky install"
+    "standard": "standard"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/binance/binance-connector-node.git"
+    "url": "git+https://github.com/binance/binance-connector-node.git"
   },
   "engines": {
     "node": ">=12.22.3",
