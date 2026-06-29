@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="binance-connector" width="880"></p>
+
 # Binance connector in Nodejs
 
 [![npm version](https://badge.fury.io/js/%40binance%2Fconnector.svg)](https://badge.fury.io/js/%40binance%2Fconnector)
