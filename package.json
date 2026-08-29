@@ -29,20 +29,20 @@
   },
   "homepage": "https://github.com/binance/binance-connector-node#readme",
   "devDependencies": {
-    "clean-jsdoc-theme": "^3.2.7",
-    "husky": "^6.0.0",
-    "jest": "^28.1.2",
-    "jsdoc": "^4.0.0",
-    "marked": "^4.0.12",
-    "nock": "^13.0.2",
-    "standard": "^16.0.4"
+    "clean-jsdoc-theme": "^5.2.0",
+    "husky": "^9.1.7",
+    "jest": "^30.5.0",
+    "jsdoc": "^4.0.5",
+    "marked": "^18.0.11",
+    "nock": "^14.0.17",
+    "standard": "^17.1.2"
   },
   "files": [
     "src/**/*"
   ],
   "dependencies": {
-    "axios": "^0.27.2",
-    "ws": "^8.8.1"
+    "axios": "^1.20.0",
+    "ws": "^8.21.3"
   },
   "jest": {
     "testMatch": [
